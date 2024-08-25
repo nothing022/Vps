@@ -70,10 +70,7 @@ def stream_markup(_, chat_id):
 
         [
             InlineKeyboardButton(
-                text="❰𝙊𝙒𝙉𝙀𝙍❱", url="https://t.me/ll_SARKAR_MERA_BABU_ll"
-            ),
-            InlineKeyboardButton(
-                text="❰𝙂𝙍𝙊𝙐𝙋❱", url="https://t.me/TG_NAME_STYLE"
+                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             ),
         ],
     ]
@@ -106,11 +103,8 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
 def livestream_markup(_, videoid, user_id, mode, channel, fplay):
     buttons = [
         [
-           InlineKeyboardButton(
-                text="❰𝙊𝙒𝙉𝙀𝙍❱", url="https://t.me/ll_SARKAR_MERA_BABU_ll"
-            ),
             InlineKeyboardButton(
-                text="❰𝙂𝙍𝙊𝙐𝙋❱", url="https://t.me/TG_NAME_STYLE"
+                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             ),
 
         ],
@@ -135,10 +129,7 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
-                text="❰𝙊𝙒𝙉𝙀𝙍❱", url="https://t.me/ll_SARKAR_MERA_BABU_ll"
-            ),
-            InlineKeyboardButton(
-                text="❰𝙂𝙍𝙊𝙐𝙋❱", url="https://t.me/TG_NAME_STYLE"
+                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             ),
         ],
         [
@@ -156,7 +147,7 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
                 text="◁",
                 callback_data=f"slider B|{query_type}|{query}|{user_id}|{channel}|{fplay}",
             ),
-            InlineKeyboardButton(
+       InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
                 callback_data=f"forceclose {query}|{user_id}",
             ),
