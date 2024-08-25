@@ -19,7 +19,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001645282995"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001805544184"))
 # Get this value from  on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID"))
 
@@ -31,15 +31,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/SARKAROP123/NEWRADHAVPSAss",
+    "https://github.com/nothing022/Vps",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TG_NAME_STYLE")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TKS_CHAT_JOIN_BABY")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Nothingbots")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Nothingbots")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = False
