@@ -237,7 +237,7 @@ async def welcome(client, message: Message):
                     userbot = await get_assistant(message.chat.id)
                     invitelink = await app.export_chat_invite_link(chid)
                     await asyncio.sleep(2)
-                    message = await message.reply_text("**joining my assistant also..**")
+                    message = await message.reply_text("**Okiee Started..**")
                     await userbot.join_chat(invitelink)
                     await message.delete()
                     await message.reply_text("**My Assistant Successfully Entered Chat.**")
